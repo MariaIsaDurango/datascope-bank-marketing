@@ -114,6 +114,29 @@ y evaluado sobre 8.238 muestras nunca vistas durante el entrenamiento.
 
 ---
 
+## 🚀 Demo Interactivo
+
+Prueba el modelo directamente en tu navegador, sin instalar nada:
+
+### 👉 [Abrir Demo en Streamlit](https://datascope-bank-marketing-q42jnzqtjtzsz4cuqygzii.streamlit.app/)
+
+La aplicación permite configurar el perfil completo de un cliente y obtener 
+en tiempo real la probabilidad de suscripción al depósito a plazo.
+
+**¿Qué puedes hacer en el demo?**
+- Configurar edad, profesión, estado civil, nivel educativo del cliente
+- Ajustar variables financieras: hipoteca, préstamos, historial crediticio
+- Modificar el contexto económico: Euribor, tasa de empleo
+- Ver si el cliente fue contactado en campañas anteriores y con qué resultado
+- Obtener probabilidad de suscripción, predicción y prioridad de contacto
+
+**Para ejecutar localmente:**
+```bash
+pip install -r requirements.txt
+python -m streamlit run app/app.py
+```
+---
+
 ## 🛠️ Tecnologías utilizadas
 
 | Categoría | Herramientas |
